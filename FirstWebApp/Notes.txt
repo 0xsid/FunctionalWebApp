@@ -1,0 +1,29 @@
+jsp expression tags:
+<%=new Date()%>
+single line code execution
+
+jsp sriptlets:
+<%  //Code Here//  %>
+used to execute multiple lines of code.
+
+
+jsp declaration:
+<%!  //code here//  %>
+the code inside the tags is copied inside the class.
+the class is implicitly created by jsp under a name like jspfilename_jsp.java
+
+jsp directives/decorator tags:
+
+<%@page import = "java.uil.Date"%>
+
+
+IMPLICIT OBJECTS PROVIDED BY JSP:
+
+-request
+-response
+-session
+-application
+-error
+-out
+-error
+
